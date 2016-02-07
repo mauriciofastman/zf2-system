@@ -9,7 +9,7 @@ $subject = 'New message from contact form';
 $fields = array('name' => 'Name', 'surname' => 'Surname', 'phone' => 'Phone', 'email' => 'Email', 'message' => 'Message');
 $htmlHeader = '';
 $htmlFooter = '';
-$okMessage = 'Formulário de contato enviado com sucesso. Obrigado, eu vou responderei para você em breve!';
+$okMessage = 'Formulário de contato enviado com sucesso. Obrigado, eu vou responder para você em breve!';
 
 $htmlContent = '<h1>New message from contact form</h1>';
 
