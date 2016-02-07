@@ -1,0 +1,30 @@
+{
+    "name": "hounddog/doctrine-data-fixture-module",
+    "description": "Zend Framework 2 Module that provides Doctrine Data-Fixture functionality",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "doctrine",
+        "data-fixture",
+        "module",
+        "zf2"
+    ],
+    "homepage": "http://www.doctrine-project.org/",
+    "authors": [
+        {
+            "name": "Martin Shwalbe",
+            "email": "martin.shwalbe@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*",
+        "doctrine/data-fixtures": "dev-master",
+        "doctrine/doctrine-orm-module": "dev-master"
+    },
+    "autoload": {
+        "psr-0": {
+            "DoctrineDataFixtureModule": "src/"
+        }
+    }
+}
