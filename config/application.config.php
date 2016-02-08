@@ -10,9 +10,9 @@ return array(
         'DoctrineModule',
         'DoctrineORMModule',
         'Base',
-        'Login',
         'Categoria',
-        'Portfolio'
+        'Login',
+        'Portfolio',
     ),
     'module_listener_options' => array(
         'module_paths' => array(
